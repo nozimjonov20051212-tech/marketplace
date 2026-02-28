@@ -1,0 +1,26 @@
+[
+  {
+    "id": "p1",
+    "title": "Aqlli Sug'orish Kontrolleri",
+    "category": "Qishloq xo'jaligi",
+    "price": "1 200 000",
+    "image": "/Aqlli_Sug'orish_Kontrolleri.AVIF",
+    "description": "Ekin maydonlarida suv sarfini optimallashtiruvchi va namlik darajasiga qarab avtomatik ishlovchi yuqori texnologik kontroller."
+  },
+  {
+    "id": "p2",
+    "title": "Portativ Quyosh Paneli",
+    "category": "Energetika",
+    "price": "850 000",
+    "image": "/Portativ_Quyosh_Paneli.webp",
+    "description": "Dala sharoitida va energiya cheklangan hududlarda turli qurilmalarni quyosh nuri orqali quvvatlantirish imkonini beruvchi ixcham panel."
+  },
+  {
+    "id": "p3",
+    "title": "Issiqxona Sensorlar To'plami",
+    "category": "Avtomatlashtirish",
+    "price": "2 100 000",
+    "image": "/Issiqxona_Sensorlar_To'plami.JPG",
+    "description": "Issiqxona ichidagi mikroiqlimni (harorat, namlik, CO2) aniq o'lchovchi va ma'lumotlarni serverga yuboruvchi sensorlar majmuasi."
+  }
+]

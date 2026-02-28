@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Smart Green House AI",
+    "description": "AI orqali boshqariladigan issiqxonalar tizimi. Namlik, harorat va CO2 darajasini avtomatik tahlil qiladi.",
+    "image": "/group1.JPG",
+    "goal": "25,000",
+    "collected": "35",
+    "status": "Faol yig'uv"
+  },
+  {
+    "id": "2",
+    "title": "Agro-Drone Navigator",
+    "description": "Qishloq xo'jaligi maydonlarini dori sepish va monitoring qilish uchun mo'ljallangan dironlar.",
+    "image": "/group2.JPG",
+    "goal": "40,000",
+    "collected": "10",
+    "status": "Yangi loyiha"
+  }
+]
