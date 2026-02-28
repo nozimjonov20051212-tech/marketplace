@@ -22,7 +22,7 @@ const upload = multer({ storage: storage });
 
 // 1. ASOSIY SOZLAMALAR
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'view'));d
+app.set('views', path.join(__dirname, 'view'));
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 
@@ -162,4 +162,5 @@ app.post('/login', (req, res) => {
 app.get('/logout', (req, res) => req.session.destroy(() => res.redirect('/')));
 
 const PORT = 3000;
+
 app.listen(PORT, () => console.log(`🚀 Server ishga tushdi: http://localhost:${PORT}`));
