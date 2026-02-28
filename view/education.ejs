@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta'lim Xizmatlari | TIQXMMI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #050810;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: #e2e8f0;
+            overflow-x: hidden;
+        }
+
+        .bg-glow {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: -1;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(37, 99, 235, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(29, 78, 216, 0.08) 0%, transparent 40%);
+        }
+
+        .premium-card {
+            background: rgba(15, 23, 42, 0.3);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 24px;
+            display: none; /* BOSHLANG'ICH HOLATDA HAMMA KARTALARNI BERKITDIK */
+            transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .premium-card:hover {
+            transform: translateY(-10px);
+            border-color: rgba(59, 130, 246, 0.4);
+            background: rgba(15, 23, 42, 0.5);
+            box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+        }
+
+        .nav-btn {
+            background: rgba(30, 41, 59, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 14px 32px;
+            border-radius: 16px;
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            transition: 0.3s;
+            color: #94a3b8;
+        }
+
+        .nav-btn:hover {
+            border-color: rgba(59, 130, 246, 0.5);
+            color: white;
+            background: rgba(30, 41, 59, 0.6);
+        }
+
+        .nav-btn.active {
+            background: #2563eb;
+            color: white;
+            border-color: #3b82f6;
+            box-shadow: 0 8px 15px -5px rgba(37, 99, 235, 0.5);
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-glow"></div>
+
+    <div class="relative z-10 min-h-screen">
+        <div class="max-w-7xl mx-auto px-6 py-10">
+            <a href="/" class="group flex items-center gap-3 bg-slate-900/50 hover:bg-blue-600 w-fit px-6 py-3 rounded-2xl transition-all border border-white/5">
+                <i class="fas fa-arrow-left text-blue-400 group-hover:text-white transition-transform group-hover:-translate-x-1"></i> 
+                <span class="font-bold text-xs uppercase tracking-widest text-white">ASOSIY SAHIFA</span>
+            </a>
+        </div>
+
+        <main class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20 animate-up">
+                <h1 class="text-4xl md:text-7xl lg:text-8xl font-black tracking-tighter uppercase leading-tight">
+                    TA'LIM <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-indigo-400 to-blue-600">XIZMATLARI</span>
+                </h1>
+                <div class="w-32 h-1.5 bg-blue-600 mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4 mb-24 animate-up" style="animation-delay: 0.2s">
+                <button onclick="filterServices('malakaviy', this)" class="nav-btn">QO'SHIMCHA MALAKAVIY IMTIHONLAR</button>
+                <button onclick="filterServices('chet-tili', this)" class="nav-btn">CHET TILI IMTIHONLARI</button>
+                <button onclick="filterServices('himoya', this)" class="nav-btn">HIMOYA UCHUN SHARTNOMA XIZMATI</button>
+            </div>
+
+            <div id="services-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pb-32">
+                <% if (education && education.length > 0) { %>
+                    <% education.forEach((item, index) => { %>
+                        <div class="service-card premium-card p-10 flex-col h-full animate-up" 
+                             style="animation-delay: 0.1s"
+                             data-category="<%= item.category %>">
+                            
+                            <div class="flex justify-between items-start mb-10">
+                                <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl flex items-center justify-center">
+                                    <i class="fas fa-graduation-cap text-white text-3xl"></i>
+                                </div>
+                                <div class="px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20">
+                                    <span class="text-[10px] font-black text-emerald-400 uppercase tracking-widest"><%= item.status %></span>
+                                </div>
+                            </div>
+
+                            <h3 class="text-2xl font-extrabold mb-5 text-white uppercase">
+                                <%= item.title %>
+                            </h3>
+                            
+                            <p class="text-slate-400 text-sm leading-relaxed mb-10 flex-grow">
+                                <%= item.description %>
+                            </p>
+
+                            <div class="mt-auto pt-8 border-t border-white/5 flex items-center justify-between">
+                                <div>
+                                    <p class="text-[10px] text-slate-500 uppercase font-black mb-1">MA'LUMOT:</p>
+                                    <p class="text-sm font-bold text-blue-400 uppercase"><%= item.goal %></p>
+                                </div>
+                                <a href="/contact" class="px-8 py-4 bg-white text-black text-[10px] font-black uppercase rounded-xl hover:bg-blue-600 hover:text-white transition-all duration-300 tracking-widest">
+                                    BATAFSIL
+                                </a>
+                            </div>
+                        </div>
+                    <% }) %>
+                <% } %>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        function filterServices(category, btn) {
+            const isActive = btn.classList.contains('active');
+            
+            // Hamma tugmalardan aktivlikni olib tashlaymiz
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            const cards = document.querySelectorAll('.service-card');
+            
+            if (isActive) {
+                // Agar aktiv tugma yana bosilsa, hamma kartalarni berkitamiz (bo'sh holat)
+                cards.forEach(card => {
+                    card.style.display = 'none';
+                    card.classList.remove('flex');
+                });
+            } else {
+                // Yangi tugmani aktiv qilamiz
+                btn.classList.add('active');
+                cards.forEach(card => {
+                    const cardCat = card.getAttribute('data-category');
+                    if (cardCat === category) {
+                        card.style.display = 'flex';
+                        card.classList.add('flex');
+                    } else {
+                        card.style.display = 'none';
+                        card.classList.remove('flex');
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>

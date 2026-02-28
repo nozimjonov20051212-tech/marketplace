@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1740484500001",
+    "title": "Smart Irrigation System AI",
+    "author": "Jasur Nozimjonov",
+    "year": "2024",
+    "number": "IAP 07231",
+    "image": "/sugorish.JPG",
+    "description": "Tuproq namligini sun'iy intellekt yordamida tahlil qiluvchi va suv resurslarini 40% gacha tejovchi aqlli tizim. Tizim avtomatik ravishda ekin turiga qarab suv sarfini belgilaydi."
+  },
+  {
+    "id": "1740484500002",
+    "title": "Eco-Friendly Battery Cell",
+    "author": "Universitet Laboratoriyasi",
+    "year": "2023",
+    "number": "IAP 08442",
+    "image": "/battary.JPG",
+    "description": "Qishloq xo'jaligi texnikalari uchun mo'ljallangan, atrof-muhitga zarar keltirmaydigan energiya saqlash qurilmasi. Uzoq muddatli xizmat va tezkor quvvatlanish tizimiga ega."
+  },
+  {
+    "id": "1740484500003",
+    "title": "Automated Greenhouse Control",
+    "author": "Sardor Alimov",
+    "year": "2024",
+    "number": "IAP 09112",
+    "image": "/greenhouse.WEBP",
+    "description": "Issiqxonalarda harorat, namlik va yorug'likni avtomatik boshqaruvchi datchiklar majmuasi. Smartfon orqali masofadan nazorat qilish imkoniyatini beradi."
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "p1",
+    "title": "MTU35 Gibrid elektro traktori",
+    "category": "Qishloq xo'jaligi",
+    "price": "35 000 000",
+    "image": "/images/photo1.jpg",
+    "description": "MTU35 zamonaviy qishloq xo'jaligi uchun mo'ljallangan, kichik quvvatli, elektr energiyasida ishlovchi haydovchisiz elektrotraktor konsepsiyasi. Loyiha 2022-yil sentyabrdan boshlab ishlab chiqilmoqda va asosiy maqsad qishloq xo'jaligida samarali, ekologik toza va mehnat unumdorligini oshiruvchi texnikaga asos solish."
+  },
+  {
+    "id": "p2",
+    "title": "Haydovchisiz elektro traktor agregati (HETA)",
+    "category": "Qishloq xo'jaligi",
+    "price": "20 000 000",
+    "image": "/images/photo2.jpg",
+    "description": "Elektr quvvati bilan harakatlanuvchi maxsus qishloq xo'jaligi traktori. 30 km/soat tezlik bilan 90-100 km masofani 1 martalik quvvat bilan bosib o'tadi, 0,5 gektar yer maydonini 2 soat davomida o'g'itlash, haydash va tekislash imkoniyati mavjud. Sun'iy intellektga asoslanib haydovchisiz harakatlanadi."
+  },
+  {
+    "id": "p3",
+    "title": "BURGUTKOZ Uchuvchisiz uchish qurilmasi",
+    "category": "Dronlar",
+    "price": "31 000 000",
+    "image": "/images/photo3.jpg",
+    "description": "Ekin maydonlarini yuqoridan monitoring qilish, raqamli xaritalash va masofaviy zondlash uchun ishlab chiqilgan dron. Aniqlik, tezkorlik va tahlil imkoniyatlari bilan ajralib turadi. "
+  },
+  {
+    "id": "p4",
+    "title": "BOYQUSH Uchuvchisiz uchish qurilmasi",
+    "category": "Dronlar",
+    "price": "45 000 000",
+    "image": "/images/photo4.jpg",
+    "description": "Orolbo'yi mintaqasida ekologik tiklanishga xizmat qiluvchi dron bo'lib, saksovul urug'larini keng maydonlarga avtomatik tarzda sepish imkonini beradi."
+  },
+  {
+    "id": "p5",
+    "title": "Defuse-IT intellektual suv tozalash uskunasi",
+    "category": "Suv xo'jaligi",
+    "price": "18 000 000",
+    "image": "/images/photo5.jpg",
+    "description": "Defuse-IT intellektual tizim asosida boshqariluvchi, IoT-modul bilan jihozlangan, mexanik, sorbsiya, membranali va UV-dezinfeksiya bosqichlarini o'z ichiga olgan mobil suv tozalash qurilmasi bo'lib, kuniga 1000 litr suvni energiya tejamkorlik bilan (27% arzon) tozalash imkoniyatiga ega."
+  },
+  {
+    "id": "p6",
+    "title": "Qosh gidroturbinali mikro GES",
+    "category": "Energetika",
+    "price": "5 000 000",
+    "image": "/images/photo6.jpg",
+    "description": "Qo'sh gidroturbinali mikro gidroelektr stansiya past bosimli kichik suv oqimlarining gidravlik potensial energiyasini mexanik energiyaga aylantirish prinsipi asosida ishlaydi. Suv oqimi ikki turbina orqali aylanish harakatini hosil qiladi va uni generatorga uzatadi."
+  },
+  {
+    "id": "p7",
+    "title": "SMART DRIP IRRIGATION SYSTEM",
+    "category": "Qishloq xo'jaligi",
+    "price": "4 000 000",
+    "image": "/images/photo7.jpg",
+    "description": "Aqlli tomchilab sug'orish tizimi. Ekinning talabiga asoslanib, sug'orish kerak yoki kerak emasligini aniqlaydi va shuningdek, maydondan olingan ma'lumotlarni ma'lumotlar bazasi shaklida maxsus saytga kiritadi. Foydalanuvchilar ma'lumotlarni tahlil qilib, tavsiyalar olishlari mumkin. "
+  },
+  {
+    "id": "p8",
+    "title": "Dala qo'riqchisi",
+    "category": "Xavfsizlik",
+    "price": "3 000 000",
+    "image": "/images/photo8.jpg",
+    "description": "Dala qo'riqchisi - bu ekin maydonlarida yong'in xavfini erta aniqlash, shuningdek harorat va namlikni real vaqt rejimida monitoring qilish uchun mo'ljallangan aqlli agro-nazorat tizimi. Tizim sensor uzatgichlar orqali: harorat, namlik, tutun miqdori, yer tebranishi kabi ma'lumotlarni o'lchaydi va yong'in xavfi sezilganda avtomatik ogohlantirish beradi."
+  },
+  {
+    "id": "p9",
+    "title": "Scholarscope",
+    "category": "IT / Ta'lim",
+    "price": "6 500 000",
+    "image": "/images/photo9.jpg",
+    "description": "Sun'iy intellekt texnologiyalariga asoslangan raqamli platforma. Tadqiqotchilarning ilmiy faoliyatini kompleks monitoring qilish (nashrlar, iqtiboslar, h-index), predator jurnallardan himoya qilish va universitetlar ilmiy salohiyatini oshirishga qaratilgan startap."
+  },
+  {
+    "id": "p10",
+    "title": "Xlorella yordamida havo tozalash",
+    "category": "Ekologiya",
+    "price": "4 100 000",
+    "image": "/images/photo10.jpg",
+    "description": "Havoni tozalash uchun maxsus bioreaktor. Intellektual tizim xlorella mikrosuvotini nazorat qiladi va CO2 gazini kislorodga aylantirib beradi. Uskuna 10 ta daraxtdan ko'proq kislorod ishlab chiqarishi mumkin."
+  },
+  {
+    "id": "p11",
+    "title": "EK elektron kundalik",
+    "category": "IT / Ta'lim",
+    "price": "5 600 000",
+    "image": "/images/photo11.jpg",
+    "description": "Talabalarning malakaviy amaliyot jarayonini real vaqtda nazorat qilish platformasi. Tizim tasvirlar va geolokatsion ma'lumotlarni yig'ish, ularni sun'iy intellekt algoritmlari yordamida qayta ishlab, avtomatik hisobot shakllantirish funksiyasiga ega"
+  },
+  {
+    "id": "p12",
+    "title": "PLASION",
+    "category": "Ekologiya",
+    "price": "12 000 000",
+    "image": "/images/photo12.jpg",
+    "description": "Plazma texnologiyasiga asoslangan innovatsion ekologik loyiha bo'lib, sanoat korxonalaridan atmosferaga chiqariladigan zaharli tutun va chang zarralarini samarali kamaytirishga qaratilgan. Energiya tejamkor plazma texnologiyasidan foydalanadi."
+  },
+  {
+    "id": "p13",
+    "title": "RespAI",
+    "category": "Tibbiyot",
+    "price": "1 000 000",
+    "image": "/images/photo13.jpg",
+    "description": "Sog'liqni doimiy monitoring qilishga mo'ljallangan aqlli qurilma bo'lib, yo'talni aniqlash va atrof-muhit havosi sifatini real vaqt rejimida nazorat qilish imkonini beradi. AI algoritmlari orqali yo'tal tovushlarini tahlil qiladi."
+  },
+  {
+    "id": "p14",
+    "title": "Nasos stansiyalarini boshqarish",
+    "category": "Suv xo'jaligi",
+    "price": "65 000 000",
+    "image": "/images/photo14.jpg",
+    "description": "Nasos stansiyalarining ish faoliyatini samarali, barqaror va energiya tejamkor tashkil etish uchun intellektual boshqarish tizimi. Agregatlarning holatini kuzatish va texnik nosozliklarni erta aniqlash imkonini beradi."
+  },
+  {
+    "id": "p15",
+    "title": "Meva yig'ish texnikasi",
+    "category": "Qishloq xo'jaligi",
+    "price": "56 400 000",
+    "image": "/images/photo15.jpg",
+    "description": "Issiq iqlim va notekis relyef sharoitida olma va boshqa mevalarning hosilini yig'ishga mo'ljallangan harakatlanuvchi texnika vositasi. Ish unumdorligini oshirib, xarajatlarni va hosil yig'ish muddatini qisqartiradi."
+  },
+  {
+    "id": "p16",
+    "title": "Kolorado qo'ng'iziga qarshi qurilma",
+    "category": "Qishloq xo'jaligi",
+    "price": "8 650 000",
+    "image": "/images/photo16.jpg",
+    "description": "Hech qanday pestisidlarsiz kartoshka ekinini ultratovush to'lqini orqali himoya qiladi. Qurilma ultratovush to'lqinlari chiqarib, qo'ng'izning asab tizimiga zarar yetkazadi. Quyosh paneli yordamida energiya bilan ta'minlangan."
+  },
+  {
+    "id": "p17",
+    "title": "Vint turbinali mikroGES",
+    "category": "Energetika",
+    "price": "2 450 000",
+    "image": "/images/photo17.jpg",
+    "description": "Past bosimli va sekin oqimli suv manbalarining energiyasidan foydalanishga mo'ljallangan. Vint tipidagi turbina past bosimlarda ham samarali ishlaydi va suv oqimini aylanma harakatga aylantiradi."
+  },
+  {
+    "id": "p18",
+    "title": "Is gazidan zaharlanishni oldini olish (GPV/S)",
+    "category": "Xavfsizlik",
+    "price": "1 550 000",
+    "image": "/images/photo18.jpg",
+    "description": "Tizim real vaqt rejimida gaz sizib chiqishini tez va aniq aniqlaydi, xavf darajasiga ko'ra ogohlantiradi va klapanlarni avtomatik yopish yoki bosimni boshqarish orqali xavfni pasaytiradi."
+  },
+  {
+    "id": "p19",
+    "title": "Baliqlarni avtomatik oziqlantiruvchi",
+    "category": "Baliqchilik",
+    "price": "320 000",
+    "image": "/images/photo19.jpg",
+    "description": "Inson omilisiz ishlashga mo'ljallangan bo'lib, hovuzlarda baliqlarga vaqt intervali asosida avtomatik ravishda ozuqa beradi. 5 voltli quvvat manbai (batareya yoki akkumulyator) yordamida ishlaydi."
+  },
+  {
+    "id": "p20",
+    "title": "CLEAN AREA",
+    "category": "Ekologiya",
+    "price": "360 000",
+    "image": "/images/photo20.jpg",
+    "description": "Datchiklar yordamida axlat qutisining holatini real vaqt rejimida kuzatib boruvchi aqlli monitoring tizimi. Axlat qutisi to'lganda foydalanuvchiga xabar yuboradi va chiqindi tashish marshrutlarini optimallashtirishga yordam beradi."
+  },
+  {
+    "id": "p21",
+    "title": "Hasharotlardan avtomatik himoya",
+    "category": "Qishloq xo'jaligi",
+    "price": "290 000",
+    "image": "/images/photo21.jpg",
+    "description": "Hasharotlarning yorug'likka tortilishi prinsipi asosida ishlovchi simli to'siq. Ekinlar va oziq-ovqat mahsulotlarini hech qanday pestitsid yoki biokimyoviy vositalarsiz tabiiy ravishda himoyalaydi."
+  },
+  {
+    "id": "p22",
+    "title": "O'simliklar fiziologik holati datchigi",
+    "category": "Qishloq xo'jaligi",
+    "price": "2 000 000",
+    "image": "/images/photo22.jpg",
+    "description": "O'simlikning tashqi qismlarida (bargi, poyasi) o'z belgilarini namoyon qiluvchi kasalliklarni sun'iy intellekt yordamida erta aniqlash va sug'orish tizimini avtomatik ishga tushirish uchun mo'ljallangan."
+  },
+  {
+    "id": "p23",
+    "title": "Haroratni o'lchash uchun aqlli sensor",
+    "category": "Sanoat",
+    "price": "465 000",
+    "image": "/images/photo23.jpg",
+    "description": "Sanoat va oziq-ovqat mahsulotlari sifatini, energiya sarfini va texnologik jarayonlarni haroratni o'lchash orqali nazorat qilish va tartibga solish uchun xizmat qiladi."
+  },
+  {
+    "id": "p24",
+    "title": "Universal Powerbank",
+    "category": "Energetika",
+    "price": "865 000",
+    "image": "/images/photo24.jpg",
+    "description": "Elektr ta'minotidan yiroq bo'lgan hududlarda turli qurilmalar uchun universal elektr ta'minoti manbasi sifatida foydalanish imkonini beradi."
+  },
+  {
+    "id": "p25",
+    "title": "Bakfungin biopreparati",
+    "category": "Qishloq xo'jaligi",
+    "price": "150 000",
+    "image": "/images/photo25.jpg",
+    "description": "Ekinlarni fitopatogen zamburug'lar va bakteriyalardan himoya qilish, kasalliklarni davolash va hosildorlikni oshirish uchun biopreparat. Tarkibida Trichoderma va Bacillus shtammlarini saqlaydi."
+  },
+  {
+    "id": "p26",
+    "title": "Cho'l o'simliklari urug'larini aeroekish",
+    "category": "Qishloq xo'jaligi",
+    "price": "6 150 000",
+    "image": "/images/photo26.jpg",
+    "description": "Motodeltaplanlarga o'rnatiladigan urug' bunkeri va to'zitkichdan iborat qurilma. Yer usti texnikasi yetib borishi qiyin bo'lgan cho'l hududlarida o'simlik qoplamiga zarar yetkazmasdan urug' ekish imkonini beradi."
+  }
+]
