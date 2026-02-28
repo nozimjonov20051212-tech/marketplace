@@ -1,6 +1,7 @@
 [
   {
     "id": "p1",
+<<<<<<< HEAD
     "title": "MTU35 Gibrid elektro traktori",
     "category": "Qishloq xo'jaligi",
     "price": "35 000 000",
@@ -206,5 +207,28 @@
     "price": "6 150 000",
     "image": "/images/photo26.jpg",
     "description": "Motodeltaplanlarga o'rnatiladigan urug' bunkeri va to'zitkichdan iborat qurilma. Yer usti texnikasi yetib borishi qiyin bo'lgan cho'l hududlarida o'simlik qoplamiga zarar yetkazmasdan urug' ekish imkonini beradi."
+=======
+    "title": "Aqlli Sug'orish Kontrolleri",
+    "category": "Qishloq xo'jaligi",
+    "price": "1 200 000",
+    "image": "/Aqlli_Sug'orish_Kontrolleri.AVIF",
+    "description": "Ekin maydonlarida suv sarfini optimallashtiruvchi va namlik darajasiga qarab avtomatik ishlovchi yuqori texnologik kontroller."
+  },
+  {
+    "id": "p2",
+    "title": "Portativ Quyosh Paneli",
+    "category": "Energetika",
+    "price": "850 000",
+    "image": "/Portativ_Quyosh_Paneli.webp",
+    "description": "Dala sharoitida va energiya cheklangan hududlarda turli qurilmalarni quyosh nuri orqali quvvatlantirish imkonini beruvchi ixcham panel."
+  },
+  {
+    "id": "p3",
+    "title": "Issiqxona Sensorlar To'plami",
+    "category": "Avtomatlashtirish",
+    "price": "2 100 000",
+    "image": "/Issiqxona_Sensorlar_To'plami.JPG",
+    "description": "Issiqxona ichidagi mikroiqlimni (harorat, namlik, CO2) aniq o'lchovchi va ma'lumotlarni serverga yuboruvchi sensorlar majmuasi."
+>>>>>>> bec3915a8d75b2b7855842e7b1cd3461e2bc096d
   }
 ]
